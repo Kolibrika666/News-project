@@ -1,12 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import s from "./Header.module.scss"
+import { today } from '../../constant/constant';
 
 const Header = () => {
 
     return (
         <div className={s.header}>
-            <NavLink className={({isActive}) => (isActive ? s.yellow : "")} to = '/'>главная</NavLink>
+            <article>
+            <h1>NEWS REACTIFY</h1>
+            <p>{today}</p>
+            </article>
+            <NavLink className={({isActive}) => (isActive ? s.active : "")} to = '/'>главная</NavLink>
         </div>
     );
 };
