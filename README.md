@@ -1,5 +1,38 @@
 # React + TypeScript + Vite
+# Start npm run dev
+- vite
+- npm i
+- npm install -g sass
+- npm install react-router@6 react-router-dom@6
+- npm install -D sass
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 
-
-# Start
-<br> 
