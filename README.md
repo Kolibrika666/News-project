@@ -7,9 +7,9 @@
 - npm install react-router@6 react-router-dom@6
 - npm install -D sass
 - width: 1000px
-- 13:17
-- 
-- 
+- api - https://currentsapi.services/en
+- .env - API token url
+- npm i axios
 - 
 - 
 - 
