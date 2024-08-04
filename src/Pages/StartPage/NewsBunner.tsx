@@ -4,14 +4,14 @@ import { NewsType } from "./models/bunner";
 import { formatTimeAgo } from "../../helpers/formatDate";
 import Image from "./Image";
 
-const NewsBunner = (props: NewsType) => {
+const NewsBunner = (item: NewsType) => {
   return (
-    <div key={props.id} className={s.bunner}>
-      <Image image={props.image} />
+    <div key={item.id} className={s.bunner}>
+      <Image image={item.image} />
       <article>
-        <h2>{props.title}</h2>
+        <h2>{item.title}</h2>
         <p>
-          {formatTimeAgo(props.published)} by {props.author}
+          {formatTimeAgo(item.published)} by {item.author}
         </p>
       </article>
     </div>

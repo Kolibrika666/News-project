@@ -10,8 +10,8 @@
 - api - https://currentsapi.services/en
 - .env - API token url
 - npm i axios
-- 
-- 
+- npm install @reduxjs/toolkit
+- npm install react-redux
 - 
 - 
 - 

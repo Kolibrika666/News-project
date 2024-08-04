@@ -4,9 +4,11 @@ export type NewsType = {
   description?: string;
   url?: string;
   author: string;
-  image: string | null;
+  image: ImageType;
   language?: string;
   category?: string[];
   world?: string;
   published: string;
 };
+
+export type ImageType = {image: string}
