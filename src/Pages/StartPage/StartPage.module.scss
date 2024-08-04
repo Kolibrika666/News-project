@@ -1,3 +1,14 @@
 .start {
   margin: 10px;
+
+  .newsList {
+    overflow-y: scroll;
+    height: 450px;
 }
+button {
+  background-color: rgb(218, 218, 218);
+  width: 100%;
+  margin: 10px;
+}
+}
+

@@ -1,0 +1,21 @@
+.news {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 20px;
+  background-color: rgb(255, 255, 255);
+
+  picture {
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  article {
+    display: grid;
+    align-content: space-around;
+  }
+}
