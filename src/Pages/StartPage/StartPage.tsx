@@ -6,7 +6,7 @@ const StartPage = () => {
     return (
         <div className={s.start}>
             <hr/>
-            <NewsBunner img='' publish='' title=''/>
+            <NewsBunner img='dd' publish='dd' title='dd' author='dg'/>
             <hr/>
         </div>
     );

@@ -1,5 +1,7 @@
 export type NewsType = {
-    img: '';
-    title: "";
-    publish: "";
+    img: string | null;
+    title: string;
+    publish: string;
+    author: string;
 }
+

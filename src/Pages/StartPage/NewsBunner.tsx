@@ -1,16 +1,16 @@
 import React from 'react';
 import s from './NewsBunner.module.scss'
-import { today } from '../../constant/constant';
 import { NewsType } from './models/bunner';
 import { formatTimeAgo } from '../../helpers/formatDate';
+import Image from './Image';
 
 const NewsBunner = (props: NewsType) => {
     return (
         <div className={s.bunner}>
-            <picture>{props.img}</picture>
+            <Image image = {props.img}/>
             <article>
             <h2>{props.img}</h2>
-            <p>{formatTimeAgo(props.publish)}</p>
+            <p>{formatTimeAgo(props.publish)} by {props.author}</p>
             </article>
         </div>
     );
